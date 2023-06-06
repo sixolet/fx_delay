@@ -7,7 +7,7 @@ FxDelay : FxBase {
             lp: 10000,
             pingpong: 0,
             feedback: 0.6,
-        ));
+        ), nil, 0.5);
         ^ret;
     }
 
